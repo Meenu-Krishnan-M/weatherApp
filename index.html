@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Rajdhani:wght@300;400;500;600;700&family=Teko:wght@300..700&display=swap"
+    rel="stylesheet">
+  <link rel="icon" href="https://nalandaschoolpune.com/wp-content/uploads/2018/09/product5.jpg">
+</head>
+
+
+<body>
+
+  <div class="container mt-5">
+
+    <div class="row">
+      <div class="col-md-6">
+        <div class="weather-container">
+          <h1 class="title">WEATHER</h1>
+          <div class="weather-info">
+            <h2 id="temperature"></h2>
+            <p id="description"></p>
+            <p id="locality"></p>
+            <p id="datetime"></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 ">
+
+        <div class="additional-info">
+          <input type="text" id="city-input" placeholder="Enter city name">
+          <button id="search-button" class="ms-3">Check</button>
+          <hr>
+        </div>
+
+        <div class="weather-details mt-4">
+          <h4>Weather Details</h4>
+          <p class="text-white mt-4">Country <br> <span class="text-dark" id="city-name"></span></p>
+          <p class="text-white mt-4">Humidity <br> <span class="text-dark" id="humidity"></span></p>
+          <p class="text-white mt-4">Wind <br><span class="text-dark" id="wind"></span></p>
+          <p class="text-white mt-4">Pressure <br> <span class="text-dark" id="pressure"></span></p>
+          <hr>
+        </div>
+        <div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
